@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+
+body {
+  background-color: #05bfdb;
+  background-image: url("http://www.transparenttextures.com/patterns/light-honeycomb-dark.png");
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+form {
+  background-color: #1115;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+.form-control:focus {
+  border-color: #4fc0d0;
+  box-shadow: 0 0 0 0.2rem rgba(79, 192, 208, 0.25);
+}
+
+.form-control::placeholder {
+  opacity: 0.5;
+}
+
+.btn {
+  background-color: #4fc0d0;
+  border: 1px solid #4fc0d0;
+}
+
+.btn:hover {
+  background-color: #70c9d4;
+  border: 1px solid #70c9d4;
+}
+
+.btn:active {
+  background-color: #70c9d4 !important;
+  border: 1px solid #70c9d4 !important;
+}
+.btn:focus {
+  background-color: #70c9d4 !important;
+  border: 1px solid #70c9d4 !important;
+  border-color: #4fc0d0;
+  box-shadow: 0 0 0 0.2rem rgba(79, 192, 208, 0.25);
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container #eye-icon {
+  position: absolute;
+  right: 3%;
+  color: #555;
+  bottom: 10%;
+}
